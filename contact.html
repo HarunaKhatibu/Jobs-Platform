@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job's Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <!--Header Section-->
+    <header>
+        <div id="navbar" class="obj-width">
+            <a href="index.html"><img class="logo" src="images/christmas_2012_new_6459.jpg" alt=""></a>
+
+            <ul id="menu" class="active">
+                <li><a href="#">Home</a></li>
+                <li><a href="/BrowserJobs/job.html">Browse Jobs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <button id="w-btn">Join</button>
+            </ul>
+
+            <i id="bar" class='bx bx-menu'></i>
+        </div>
+
+    </header>
+
+    <!-- Contact-->
+     <section class="contact obj-width sec-space">
+        <div class="contact-img">
+               <h2>Get in touch</h2>
+            <p>Most Viewed and all-time top-selling</p>
+            <img src="images/contact.jpg" alt="">
+        </div>
+
+        <form id="contact-form" method="POST" action="send_email.php">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" autocomplete="off" required />
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" autocomplete="off" required />
+
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" rows="5" required></textarea>
+
+            <input type="submit" id="g-btn" value="Submit">
+            
+        </form>
+     </section>
+
+     <section class="contact obj-width sec-space">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d317716.60645421536!2d-0.4312441619948037!3d51.52860701284128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2sin!4v1746787812967!5m2!1sen!2sin" width="1000%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     </section>
+
+ <!-- footer section-->
+
+    <footer class="footer">
+        <div class="obj-width">
+            <div class="top">
+                <div>
+                    <img src="images/christmas_2012_new_6459.jpg" alt="" class="logo">
+                    <p>Search your desired jobs</p>
+                </div>
+                    <div>
+                        <a href="https://www.youtube.com/@Tech2etc/videos"><i class='bx bxl-facebook-square'></i></a>
+                        <a href="https://www.youtube.com/@Tech2etc/videos"><i class='bx bxl-instagram'></i></a>
+                        <a href="https://www.youtube.com/@Tech2etc/videos"><i class='bx bxl-twitter'></i></a>
+                        <a href="https://www.youtube.com/@Tech2etc/videos"><i class='bx bxl-behance'></i></a>
+                    </div>
+            </div>
+
+            <div class="bottom">
+                <div>
+                    <h3>Project</h3>
+                    <a href="#">Changelog</a>
+                    <a href="#">Status</a>
+                    <a href="#">Licence</a>
+                    <a href="#">All Versions</a>
+                </div>
+
+                <div>
+                    <h3>Community</h3>
+                    <a href="#">GitHub</a>
+                    <a href="#">Issues</a>
+                    <a href="#">Project</a>
+                    <a href="#">Twitter</a>
+                </div>
+
+                <div>
+                    <h3>Help</h3>
+                    <a href="#">Support</a>
+                    <a href="#">TroubleShooting</a>
+                    <a href="#">Contact Us</a>
+                </div>
+
+                <div>
+                    <h3>Others</h3>
+                    <a href="#">Terms of services</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Licence</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="toggle.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
